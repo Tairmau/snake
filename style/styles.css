@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    margin-bottom: 20px;
+}
+#firstform{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+canvas{
+    width: 500px;
+    height: 500px;
+}
+button{
+    margin-top: 50px;
+    width: 200px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(9, 150, 9);
+    border: none;
+    border: 4px rgb(16, 187, 0) solid;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+}
+.login{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 100px;
+    width: 500px;
+    height: 400px;
+}
+.login form{
+    display: flex;
+    flex-direction: column;
+    
+}
+.register{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 100px;
+    width: 500px;
+    height: 400px;
+}
+.register form{
+    display: flex;
+    flex-direction: column;
+    
+}
+input{
+    width: 200px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.login form a{
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10px;
+    color: rgb(216, 121, 13);
+}
+.register form a{
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10px;
+    color: rgb(216, 121, 13);
+}
+.bestscores{
+    position: absolute;
+    margin-left: 1400px;
+    margin-top: 210px;
+}
+.bestscores th{
+    padding-left: 50px;
+}
